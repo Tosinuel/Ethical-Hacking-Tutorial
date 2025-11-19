@@ -1,7 +1,7 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import tutorials from '../data/tutorials';
 
-const Intermediate = ({ tutorials }) => {
+const Intermediate = () => {
   const intermediateTutorials = tutorials.filter(t => t.level === 'intermediate');
 
   return (
@@ -16,7 +16,9 @@ const Intermediate = ({ tutorials }) => {
               <div className="card-body">
                 <h5 className="card-title">{tutorial.title}</h5>
                 <p className="card-text">{tutorial.description}</p>
-                <Link to={`/tutorial/${tutorial.id}`} className="btn btn-primary">Read Tutorial</Link>
+                <button className="btn btn-primary" onClick={() => {
+                  alert(tutorial.title + '\n\n' + tutorial.content.replace(/<[^>]*>/g, '').substring(0, 200) + '...');
+                }}>Read Tutorial</button>
               </div>
             </div>
           </div>
