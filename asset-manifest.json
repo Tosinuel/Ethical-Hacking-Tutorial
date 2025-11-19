@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Ethical-Hacking-Tutorial/static/css/main.db9257ce.css",
+    "main.js": "/Ethical-Hacking-Tutorial/static/js/main.85f5ffd4.js",
+    "index.html": "/Ethical-Hacking-Tutorial/index.html",
+    "main.db9257ce.css.map": "/Ethical-Hacking-Tutorial/static/css/main.db9257ce.css.map",
+    "main.85f5ffd4.js.map": "/Ethical-Hacking-Tutorial/static/js/main.85f5ffd4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db9257ce.css",
+    "static/js/main.85f5ffd4.js"
+  ]
+}
